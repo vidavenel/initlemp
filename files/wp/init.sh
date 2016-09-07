@@ -2,6 +2,7 @@
 
 mkdir /data/rootdir/php
 mkdir /data/rootdir/nginx
+mkdir /data/rootdir/nginx/conf.d
 
 cp /data/wp/php.ini /data/rootdir/php/php.ini
 cp /data/wp/wp.conf /data/rootdir/nginx/conf.d/wp.conf
