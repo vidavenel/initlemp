@@ -1,6 +1,5 @@
-FROM vidavenel/php
+FROM ubuntu
 MAINTAINER Vincent DAVENEL <vincent@aiglecom.com>
 
 ADD ./files /data
-
-ENV SERVER_NAME www.exemple.com
+RUN chmod 775 /data/init.sh
