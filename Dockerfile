@@ -1,4 +1,4 @@
-FROM busybox:latest
+FROM vidavenel/php
 MAINTAINER Vincent DAVENEL <vincent@aiglecom.com>
 
 ADD ./files /data
